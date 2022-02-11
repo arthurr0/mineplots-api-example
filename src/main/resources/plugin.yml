@@ -1,0 +1,8 @@
+name: minePlots-api-example
+version: '${project.version}'
+main: pl.minecodes.mineplots.example.PlotsApiExample
+api-version: 1.18
+depend:
+  - minePlots
+authors: [ _arturek ]
+website: https://minecodes.pl
