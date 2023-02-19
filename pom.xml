@@ -55,12 +55,9 @@
 
     <repositories>
         <repository>
-            <id>papermc-repo</id>
-            <url>https://papermc.io/repo/repository/maven-public/</url>
-        </repository>
-        <repository>
-            <id>mineCodes-repo</id>
-            <url>https://repository.minecodes.pl</url>
+            <id>minecodes-repository-releases</id>
+            <name>mineCodes Organization Repository</name>
+            <url>https://repository.minecodes.pl/releases</url>
         </repository>
     </repositories>
 
@@ -72,9 +69,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>pl.minecodes.mineplots</groupId>
-            <artifactId>minePlots-api</artifactId>
-            <version>1.1</version>
+            <groupId>pl.minecodes.plots</groupId>
+            <artifactId>plugin-api</artifactId>
+            <version>3.4.5</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
